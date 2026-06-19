@@ -31,7 +31,7 @@ CREATE TABLE pokemon_entrenador (
 CREATE TABLE pokemon_pokemon (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
-    descripcion VARCHAR(100) NOT NULL,
+    descripcion TEXT NOT NULL,
     tipo_pokemon INT NOT NULL,
     fecha_descubrimiento DATE NOT NULL,
     generacion INT NOT NULL,
